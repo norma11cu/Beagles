@@ -1,0 +1,6 @@
+[0512/213806.091:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Gunbean\Reports\Dump\settings.dat: Acceso denegado. (0x5)
+[0512/213806.106:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0512/213806.126:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Gunbean\Reports\Dump\settings.dat: Acceso denegado. (0x5)
+[0513/201629.292:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Gunbean\Reports\Dump\settings.dat: Acceso denegado. (0x5)
+[0513/201629.306:ERROR:registration_protocol_win.cc(83)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
+[0513/201629.311:ERROR:file_io_win.cc(163)] CreateFile C:\Program Files (x86)\Gunbean\Reports\Dump\settings.dat: Acceso denegado. (0x5)

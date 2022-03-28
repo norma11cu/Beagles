@@ -1,0 +1,449 @@
+@font-face {
+    font-family: "beagles";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"),url("../fonts/bootle.ttf") format("truetype");
+}
+@media screen and (min-width:500px) and (min-height:500px){
+body{
+      background-image:url("../img/fondo.png");  
+    }
+#header{
+    position: absolute;
+    height:23%;
+    width: 38%;
+    left:32%;
+    top:3%;
+    text-align:center;
+    font-size: 26pt;
+    color:black;
+    font-family: "beagles";
+    z-index:10;
+}
+h1{
+    position: absolute;
+    top: -25%; 
+    left: 20%;
+    }
+
+    
+    .menu_principal{ 
+        left:-29%;
+    }
+    .menu_principal li{
+        list-style: none; 
+        float: left;
+        /*margin:10px;*/
+        font-family: 'Magra', sans-serif;
+        text-align:left;
+    }
+    .menu_principal li a{
+       display: block; /* Usamos display block para poder aplicar propiedades de caja a links  color transparente rgba(240, 240, 240, 0.4) */
+       background-color: rgb(105,105,105);
+       border: 1px solid rgb(220,220,220);
+       color:white;
+       padding: 5px 12px;
+    }
+    .menu_principal li ul{
+        display:none;
+    }
+    .menu_principal li:hover ul{
+       font-size: 12px;
+       display: block; /*Al situar el cursor sobre el item la lista de subitems pasa de display none a display block y se muestra*/
+       position: absolute; /*Al desplegarse el submenú no ocupa espacio y no desplaza a otros elementos gracias a que establecemos position absolute*/
+       margin: 0; padding: 0; /*Anulamos margin y padding que por defecto introducen navegadores*/
+       text-decoration: none;
+    }
+    .menu_principal li:hover li { float: none; font-size: 11pt;  text-decoration: none; } 
+.link{
+    width: 50px;
+    height: 50px;
+    margin-left:4%;
+    margin-right:3%;
+}
+#aside{
+    position: absolute;
+    height:80%;
+    width: 15%;
+    left:79%;
+    top:12%;
+}
+#lista{
+  position: absolute;
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height:20%;
+  width:150%;
+  right:-25%;
+  top:100%;
+  text-align:center;
+  font-size: 12pt;
+  font-family: "AR JULIAN";
+}
+.link_menu{
+    float:left;
+}
+a{
+   color: black;
+   text-decoration: none;
+}
+ul{
+    
+   list-style: none; 
+}
+#nav{
+    position: absolute;
+    height:90%;
+    width: 20%;
+    left: 5%;
+    top:5%; 
+}
+#buscar{
+    position: absolute;
+    height:5%;
+    left: 2%;
+    top:23%;
+    font-family: 'Magra', sans-serif;
+    
+}
+   
+#menu_2{
+    position: absolute;
+    width: 80%;
+    left:-10%;
+    top:45%; 
+    font-size: 11pt;
+    font-family: 'Magra', sans-serif;
+    background-color: rgba(240, 240, 240, 0.4);
+    display:inline-block;
+    text-decoration: none;
+}
+#menu ul{
+    display: none;
+     text-decoration: none;
+        
+}
+#menu li a{
+  display: block;
+  padding: 9px 15px;
+   text-decoration: none;
+}
+#menu ul li ul {
+   display: none;
+    
+    }  
+#menu ul li ul li ul {
+        display: none;
+    }      
+#main{
+    position: absolute;
+    height:60%;
+    width: 50%;
+    left:25%;
+    top:35%; 
+}
+#page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9,#page10, #page11, #page12, #page13, #page14{
+    position: absolute;
+    background-color: rgba(240, 240, 240, 0.4);
+    height:60%;
+    width: 50%;
+    left:25%;
+    top:35%; 
+    overflow-y: scroll;
+    display: none;
+}
+    h2{
+        text-align: center;
+        font-family: "beagles";
+        font-size:15pt;
+        top: 10%;
+    }
+#carrusel{
+    position: absolute;
+    display: block;
+    left:-1%;
+    height:85%;
+    width: 100%;
+    top:auto;
+}
+#carrusel_publicidad{
+    position: absolute;
+    left:16%;
+    height:35%;
+    width: 20%;
+    top:28%;
+    text-align: center;
+    
+}
+#carrusel_publicidad_2{
+    position: absolute;
+    left:16%;
+    height:35%;
+    width: 20%;
+    top:70%;
+    text-align: center;
+    
+}
+#suscribir{
+    position: absolute;
+    left:10%;
+    height:10%;
+    width: 20%;
+    top:102%;
+    font-family: 'Magra', sans-serif; 
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Magra', sans-serif; 
+    height:40%;
+    width:60%;
+}
+button{
+    border-radius: 10px;
+    background-color:black;
+    border: none;
+    color: white;
+    height:45%;
+    width:27%;
+   font-family: 'Magra', sans-serif; 
+}
+#patrocinadores{
+    position: absolute;
+    left:36%;
+    height:10%;
+    width: 10%;
+    top:103%;
+    font-family: 'Magra', sans-serif;  
+    font-weight: bold;
+}
+#imagen_1{
+    position: absolute;
+    left:46%;
+    height:15%;
+    width: 30%;
+    top:100%; 
+}
+#imagen_2{
+    position: absolute;
+    left:51%;
+    height:15%;
+    width: 30%;
+    top:95%; 
+}
+#imagen_3{
+    position: absolute;
+    left:62%;
+    height:15%;
+    width: 30%;
+    top:98%; 
+}
+#footer{
+    position: absolute;
+    left:5%;
+    height:5%;
+    width: 90%;
+    top:115%;
+    font-size: 10.5pt;
+    font-family: 'Magra', sans-serif;  
+}
+#contacto{
+    position: absolute;
+    left:59%;
+    height:40%;
+    width: 60%;
+    top:90%;
+}
+hr{
+    border:0;
+    height: 10px;
+    background-color: black;
+    }
+    #footer p{
+        position: absolute;
+        top: 90%;
+        color: black;
+        font-family: 'Magra', sans-serif; 
+    }
+    #page2 p, #page3 p, #page4 p, #page5 p, #page6 p, #page7 p, #page8 p, #page9 p, #page10 p, #page11 p, #page12 p, #page13 p, #page14 p{
+
+        position: absolute;
+        top: 15%;
+        color: black;
+        font-family: 'Magra', sans-serif; 
+        left: 10%;
+        right: 10%;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:500px) and (max-height:800px){
+#header{
+    position: static;
+    height:20%;
+    width: 40%;
+    left:29%;
+    top:0%;
+    text-align:center;
+    font-size: 22pt;
+    font-family: "AR JULIAN";
+    }
+.link{
+    width: 50px;
+    height: 50px;
+    margin-left:4%;
+    margin-right:3%;
+}
+#aside{
+    position:  static;
+    height:80%;
+    width: 15%;
+    left:79%;
+    top:8%;
+}
+#lista{
+  position:  static;
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height:20%;
+  width:150%;
+  right:-25%;
+  top:100%;
+  text-align:center;
+  font-size: 12pt;
+  font-family: "AR JULIAN";
+}
+.link_menu{
+    float:left;
+    margin-left: 5%;
+}
+a{
+   color: black;
+}
+ul{
+   list-style: none; 
+}
+#nav{
+    position:  static;
+    height:90%;
+    width: 20%;
+    left: 5%;
+    top:5%; 
+}
+#buscar{
+    position:  static;
+    height:5%;
+    left: 2%;
+    top:13%;   
+    
+}
+#menu{
+    position:  static;
+    width: 80%;
+    left:-10%;
+    top:30%; 
+    font-size: 12pt;
+    font-family: "AR JULIAN";
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+}
+li{
+    padding-bottom: 10%
+}
+#main{
+    position:  static;
+    height:45%;
+    width: 50%;
+    left:25%;
+    top:29%; 
+    font-family: "AR JULIAN"; 
+}
+#carrusel{
+    position:  static;
+    left:-7%;
+    height:85%;
+    width: 100%;
+    top:auto;
+}
+#carrusel_publicidad{
+    position:  static;
+    left:16%;
+    height:35%;
+    width: 20%;
+    top:25%;
+    text-align: center;
+    
+}
+#carrusel_publicidad_2{
+    position:  static;
+    left:16%;
+    height:35%;
+    width: 20%;
+    top:70%;
+    text-align: center;
+    
+}
+#suscribir{
+    position: static;
+    left:16%;
+    height:10%;
+    width: 20%;
+    top:96%;
+    font-family: "AR JULIAN"; 
+}
+input{
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: "AR JULIAN";
+    height:40%;
+}
+button{
+    border-radius: 10px;
+    background-color:black;
+    border: none;
+    color: white;
+    height:50%;
+    font-family: "AR JULIAN";
+}
+#patrocinadores{
+    position:  static;
+    left:36%;
+    height:10%;
+    width: 10%;
+    top:95%;
+    font-family: "AR JULIAN"; 
+}
+#imagenes{
+    position:  static;
+    left:46%;
+    height:15%;
+    width: 30%;
+    top:92%; 
+}
+#footer{
+    position:  static;
+    left:5%;
+    height:10%;
+    width: 90%;
+    top:110%;
+    font-size: 10pt;
+    font-family: "AR JULIAN"; 
+}
+#contacto{
+    position: static;
+    left:44%;
+    height:30%;
+    width: 60%;
+    top:27%;
+}
+hr{
+    border:0;
+    height: 10px;
+    background-color: black;
+}
+}
+
